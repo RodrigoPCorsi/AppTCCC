@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App_Tccc</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_act__teste_persistencia">Act_TestePersistencia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_act__login">Act_Login</string>
+    <string name="title_activity_act__cadastro_pessoa">Act_CadastroPessoa</string>
+    <string name="cad_CAmpoObrigatorio">Campo Obrigatório</string>
+    <string name="cad_emailInvalido">Email Inválido</string>
+    <string name="cad_cpfInvalido">Cpf Inválido</string>
+    <string name="cad_rgInvalido">Rg Inválido</string>
+    <string name="cad_senhaInvalida">Digite uma senha com mais de 4 dígitos</string>
+    <string name="title_activity_act__cadastro_cartao_credito">Cadastro Cartão de Crédito</string>
+    <string name="title_activity_act__cadastro_cartao_tcc">Cadastro de Cartão TCC</string>
+    <string name="cad">Cadastrar</string>
+    <string name="title_activity_act__lista_cartoes">Act_ListaCartoes</string>
+    <string name="title_activity_act__listar_cartoes">Act_ListarCartoes</string>
+    <string name="title_activity_act__main">Main</string>
+
+</resources>

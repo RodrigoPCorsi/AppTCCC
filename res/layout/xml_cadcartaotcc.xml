@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Act_CadastroCartaoTCC" >
+
+    <EditText
+        android:id="@+id/cadCTcc_Nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/cadCTcc_txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cadCTcc_Nome"
+        android:layout_below="@+id/cadCTcc_Nome"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Número"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/cadCTcc_btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cadCTcc_txtNumero"
+        android:layout_centerVertical="true"
+        android:text="@string/cad" />
+
+</RelativeLayout>
